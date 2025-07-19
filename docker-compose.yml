@@ -1,0 +1,44 @@
+# AK Beauty - Docker Compose Konfigürasyonu
+# Bu dosya ile AK Beauty web sitesini kolayca çalıştırabilirsiniz
+
+version: '3.8'
+
+services:
+  ak-beauty:
+    build: .
+    container_name: ak-beauty-website
+    ports:
+      - "8080:80"
+    volumes:
+      # Geliştirme için dosya değişikliklerini izle
+      - ./index.html:/usr/share/nginx/html/index.html
+      - ./assets:/usr/share/nginx/html/assets
+      - ./README.md:/usr/share/nginx/html/README.md
+      - ./CUSTOMIZATION.md:/usr/share/nginx/html/CUSTOMIZATION.md
+      - ./LICENSE:/usr/share/nginx/html/LICENSE
+    restart: unless-stopped
+    environment:
+      - NGINX_HOST=localhost
+      - NGINX_PORT=80
+    networks:
+      - ak-beauty-network
+
+  # Geliştirme için hot reload (opsiyonel)
+  ak-beauty-dev:
+    image: nginx:alpine
+    container_name: ak-beauty-dev
+    ports:
+      - "3000:80"
+    volumes:
+      - .:/usr/share/nginx/html
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    restart: unless-stopped
+    profiles:
+      - dev
+
+networks:
+  ak-beauty-network:
+    driver: bridge
+
+volumes:
+  ak-beauty-data: 
