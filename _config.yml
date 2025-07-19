@@ -1,0 +1,65 @@
+# GitHub Pages Jekyll Konfigürasyonu
+# AK Beauty - İstanbul Güzellik Salonu Web Sitesi Şablonu
+
+# Site ayarları
+title: AK Beauty
+description: İstanbul'daki güzellik salonları için ücretsiz web sitesi şablonu
+author: a.koc
+email: ak@ak-pro.com
+url: https://ak-hosting.github.io/ak-beauty
+
+# GitHub Pages ayarları
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO ayarları
+lang: tr
+locale: tr_TR
+
+# Site haritası
+sitemap:
+  exclude:
+    - /404.html
+    - /_config.yml
+    - /README.md
+    - /CUSTOMIZATION.md
+    - /LICENSE
+    - /Dockerfile
+    - /docker-compose.yml
+    - /nginx.conf
+    - /.gitignore
+    - /env.example
+
+# Markdown ayarları
+markdown: kramdown
+highlighter: rouge
+
+# Koleksiyonlar
+collections:
+  _posts:
+    output: true
+    permalink: /:collection/:title/
+
+# Varsayılan ayarlar
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "a.koc"
+      comments: true
+      share: true
+
+# Exclude dosyaları
+exclude:
+  - Dockerfile
+  - docker-compose.yml
+  - nginx.conf
+  - env.example
+  - .gitignore
+  - README.md
+  - CUSTOMIZATION.md
+  - LICENSE 

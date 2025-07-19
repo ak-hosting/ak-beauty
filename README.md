@@ -4,7 +4,7 @@
 
 İstanbul'daki güzellik salonları için ücretsiz, SEO dostu ve mobil uyumlu web sitesi şablonu. Bootstrap 5 ile geliştirildi, birkaç saniyede klonlayıp çalıştırabilirsiniz!
 
-**[GitHub Repository](https://github.com/ak-hosting/ak-beauty)** | **[Destek için İletişime Geçin](mailto:ak@ak-pro.com)**
+**[GitHub Repository](https://github.com/ak-hosting/ak-beauty)** | **[Canlı Demo](https://ak-hosting.github.io/ak-beauty/)** | **[Destek için İletişime Geçin](mailto:ak@ak-pro.com)**
 
 ## 🚀 Özellikler
 
