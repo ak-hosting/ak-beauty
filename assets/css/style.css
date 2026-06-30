@@ -108,9 +108,52 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(216, 27, 96, 0.8);
+    background:
+        linear-gradient(180deg, rgba(87, 20, 48, 0.46) 0%, rgba(216, 27, 96, 0.76) 52%, rgba(129, 17, 72, 0.9) 100%);
     display: flex;
     align-items: center;
+}
+
+.hero-content-shell {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 3rem 2.5rem;
+    border-radius: 28px;
+    background: linear-gradient(180deg, rgba(74, 15, 42, 0.34) 0%, rgba(74, 15, 42, 0.18) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    box-shadow: 0 24px 60px rgba(72, 11, 39, 0.28);
+    backdrop-filter: blur(10px);
+}
+
+.hero-kicker {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.hero-section h1 {
+    max-width: 12ch;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0 10px 30px rgba(30, 10, 21, 0.42);
+}
+
+.hero-section .lead {
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(255, 255, 255, 0.92);
+    text-shadow: 0 4px 18px rgba(30, 10, 21, 0.25);
 }
 
 /* Animations */
@@ -390,6 +433,11 @@ footer ul li a:hover {
     .navbar-brand {
         font-size: 1.25rem;
     }
+
+    .hero-content-shell {
+        padding: 2.25rem 1.5rem;
+        border-radius: 22px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -408,6 +456,15 @@ footer ul li a:hover {
     
     .contact-info {
         padding: 1rem;
+    }
+
+    .hero-content-shell {
+        padding: 1.75rem 1rem;
+    }
+
+    .hero-kicker {
+        font-size: 0.75rem;
+        letter-spacing: 0.05em;
     }
 }
 
