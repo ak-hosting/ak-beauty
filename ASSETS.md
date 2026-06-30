@@ -11,36 +11,27 @@ Sie dient als Arbeitsgrundlage fuer Demo-, Lizenz- und Produktionspruefungen.
 - Typ: Beauty studio demo web sitesi
 - Status: Portfolio-/Demo-Projekt
 
-## Wichtige Assets im Repository
+## Wichtige Runtime-Assets
 
-- `assets/images/hero-bg.jpg`
-- `assets/images/salon-interior.jpg`
-- `assets/images/gallery-1.jpg` bis `gallery-6.jpg`
+- `assets/images/hero-bg.svg`
+- `assets/images/salon-interior.svg`
+- `assets/images/gallery-1.svg` bis `gallery-6.svg`
 
-## Aktueller Quellenstatus
+## Quellenstatus
 
-Im Repository existiert bereits eine generische Bilddokumentation, aber keine belastbare Eins-zu-eins-Zuordnung der aktuell eingebundenen Dateien zu einer konkreten Quelle.
-
-## Bereits im Repository dokumentiert
-
-- `assets/images/README.md` nennt Unsplash und Pexels nur als allgemeine Empfehlung, nicht als verbindliche Herkunftsliste
+Die laufzeitrelevanten Frontend-Bilder wurden fuer dieses Demo-Projekt auf lokal erzeugte SVG-Placeholders umgestellt.
 
 ## Lokale Demo-Assets
 
-- `assets/images/favicon.svg` wurde als lokales Demo-Asset ergaenzt
-- `assets/images/og-image.svg` wurde als lokales Demo-Asset fuer Social Preview ergaenzt
+- alle oben genannten SVG-Dateien sind lokal erzeugte Demo-Assets
+- `assets/images/favicon.svg` ist ein lokales Demo-Asset
+- `assets/images/og-image.svg` ist ein lokales Demo-Asset fuer Social Preview
 
-## Risiko-Einschaetzung
+## Bewertung
 
-- Fuer Demo-Zwecke ist der aktuelle Stand ausreichend dokumentiert.
-- Fuer produktive oder kommerzielle Nutzung muessen Bildherkunft und Nutzungsrechte final verifiziert werden.
-- Nicht dokumentierte Fremdassets duerfen nicht stillschweigend als final freigegeben gelten.
-
-## Naechste Schritte
-
-- Konkrete Herkunft der vorhandenen JPG-Dateien repo-intern verifizieren
-- Diese Datei nach der Verifikation um eine dateigenaue Quellenliste erweitern
+- Die bisher offene Herkunftsfrage der laufzeitrelevanten Frontend-Bilder ist damit fuer das aktuelle Demo geschlossen.
+- Eventuell noch vorhandene JPG-/PNG-Dateien im Repository gelten nicht mehr als benoetigte Runtime-Grundlage.
 
 ## Hinweis
 
-Diese Datei beschreibt den aktuell nachvollziehbaren Repo-Stand. Wo keine belastbare Quelle im Repository selbst vorliegt, wird bewusst nichts geraten oder erfunden.
+Diese Datei beschreibt den aktuellen Runtime-Stand. Fuer kuenftige echte Projektbilder muessen Herkunft und Nutzungsrechte erneut dokumentiert werden.
