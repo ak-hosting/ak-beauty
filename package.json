@@ -1,0 +1,1 @@
+{"name":"ak-beauty","version":"2.0.0","private":true,"description":"Beauty stüdyoları için sakin editorial GitHub Pages şablonu","scripts":{"test":"node scripts/validate.mjs","lint":"node --check assets/js/script.js && node scripts/validate.mjs","build":"node scripts/validate.mjs"},"license":"MIT","homepage":"https://ak-hosting.github.io/ak-beauty/","engines":{"node":">=18"}}

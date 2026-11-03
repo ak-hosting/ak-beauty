@@ -1,37 +1,9 @@
-# AK Beauty - Asset und Lizenzstatus
+# Asset ve lisans durumu
 
-## Zweck
+Kullanıcının isteğiyle repository içindeki mevcut JPG Beauty fotoğrafları korunmuş ve canlı tasarıma dahil edilmiştir:
 
-Diese Datei dokumentiert den aktuellen Stand der im Repository verwendeten Bild-, Icon- und Demo-Assets.
-Sie dient als Arbeitsgrundlage fuer Demo-, Lizenz- und Produktionspruefungen.
+- assets/images/hero-bg.jpg
+- assets/images/salon-interior.jpg
+- assets/images/gallery-1.jpg, gallery-3.jpg, gallery-5.jpg
 
-## Projektkontext
-
-- Projekt: `ak-beauty`
-- Typ: Beauty studio demo web sitesi
-- Status: Portfolio-/Demo-Projekt
-
-## Wichtige Runtime-Assets
-
-- `assets/images/hero-bg.svg`
-- `assets/images/salon-interior.svg`
-- `assets/images/gallery-1.svg` bis `gallery-6.svg`
-
-## Quellenstatus
-
-Die laufzeitrelevanten Frontend-Bilder wurden fuer dieses Demo-Projekt auf lokal erzeugte SVG-Placeholders umgestellt.
-
-## Lokale Demo-Assets
-
-- alle oben genannten SVG-Dateien sind lokal erzeugte Demo-Assets
-- `assets/images/favicon.svg` ist ein lokales Demo-Asset
-- `assets/images/og-image.svg` ist ein lokales Demo-Asset fuer Social Preview
-
-## Bewertung
-
-- Die bisher offene Herkunftsfrage der laufzeitrelevanten Frontend-Bilder ist damit fuer das aktuelle Demo geschlossen.
-- Eventuell noch vorhandene JPG-/PNG-Dateien im Repository gelten nicht mehr als benoetigte Runtime-Grundlage.
-
-## Hinweis
-
-Diese Datei beschreibt den aktuellen Runtime-Stand. Fuer kuenftige echte Projektbilder muessen Herkunft und Nutzungsrechte erneut dokumentiert werden.
+Aynı fotoğraf serisinin farklı boyut ve kırpımları editorial bütünlük için kullanılır. Dosyaların kaynak/lisans kaydı repository geçmişindeki mevcut beyana dayanır; üretim kullanımı öncesinde haklar yeniden doğrulanmalıdır. Yerel favicon ve OG görseli de repository içindedir.
